@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation */
+header {
+    background: #004a99; /* Professional Blue */
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+#about,#programs,#impact-stats{
+    padding-top: 120px;
+    margin-top: -60px;
+}
+#contact{
+ padding-left: 1.5cm;  
+margin-left: 1.5cm; }
+.btn-donate {
+    background: #ff8c00; /* Hope Orange */
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-donate:hover {
+    background: #e67e00;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('hero-bg.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 10%;
+    text-align: center;
+}
+
+/* Content Sections */
+section {
+    padding: 60px 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+#co-class
+{padding-left: 2.5cm;
+}
+#volunteer{
+    padding-top: 120px;
+}
+.card{
+    background: white;
+    padding-top: 100px;
+    margin-top: -60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 50px;
+}
